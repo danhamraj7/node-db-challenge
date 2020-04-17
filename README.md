@@ -40,11 +40,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+-ans A RDBMS is a Relational Database Management System. It is the database software itself, which manages storage, querying, updating, and everything else concerning the database. Specifically, a RDBMS uses a relational model of data. SQL, (Structured Query Language) is a language that is used to query data from the database.
+
 - [ ] Why do tables need a `primary key`?
+
+-ans A primary key is a way to uniquely identify and reference tables in a database.
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+-ans A Foreign key is used for reference.
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+-ans A link-table is needed to connect two tables where a many to many relationship exists. This third table consists of the primary keys of the two other tables.
 
 ## Minimum Viable Product
 
